@@ -9,7 +9,6 @@
     <script>
         function alterarVolume() {
             var audio = document.getElementById("meuAudio");
-            audio.
             var volume = document.getElementById("controleVolume").value;
             audio.volume = volume;
         }
@@ -61,7 +60,14 @@
                     </div>
                 </fieldset><br>
                 <textarea name="mensagem" cols="30" rows="8"></textarea><br>
-                <button click="alterarVolume()" type="submit">Enviar</button>
+                <button click=" <script>
+                    function alterarVolume() {
+                        var audio = document.getElementById("meuAudio");
+                        var volume = document.getElementById("controleVolume").value;
+                        audio.volume = volume;
+                    }
+                </script>
+            </body>" type="submit">Enviar</button>
                 <button type="reset">Limpar</button>
             </form>    
                     
@@ -73,8 +79,8 @@
                 <h3>Entre em Contato</h3>
                 <p>Telefone: (00) 1234-5678</p>
                 <p>Endereço: Av. Principal, 1234 - Centro, Cidade - Estado</p>
-                <p>Email: contato@clinicadonate.com</p>
-                <p>&copy; 2024 Clínica Donate. Todos os direitos reservados.</p>
+                <p>Email: contato@clinicaciac.com</p>
+                <p>&copy; 2024 Clínica Ciac. Todos os direitos reservados.</p>
             </div>
         </div>
     </div>
